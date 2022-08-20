@@ -1,0 +1,64 @@
+/*Menu: Logo y Barra de Navegacion*************/
+
+header {
+    height: 650px;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #4a77b4;
+    height: 120px;
+}
+
+.menu__logo {
+    height: 100px;
+    margin-top: 8px;
+    margin-left: 90px;
+}
+
+.menu__enlaces {
+    float: right;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+
+.menu__enlace {
+    color: aliceblue;
+    padding: 15px;
+    text-decoration: none;
+    font-family: helvetica;
+
+}
+
+.menu__enlace:hover {
+    color: #297cc4;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+/*fondo: Imagen, Titulo y Subtitulo************/
+.fondo__imagen {
+    width: 100%;
+    margin-top: 120px;
+    height: auto;
+}
+
+.fondo__titulo {
+
+    position: relative;
+    margin-top: -280px;
+
+    text-align: center;
+    font-size: 63px;
+    text-shadow: 0 0 3px black;
+    color: #05CEED;
+}
+
+.fondo__subtitulo {
+    margin-top: 70px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 27px;
+}
